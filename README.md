@@ -1,3 +1,5 @@
+# Census_Data_Standardization_and_Analysis_Pipeline
+
 Description :
 Census Data Standardization and Analysis Pipeline is a basic project for learning Data cleaning and analysis. Data is first imported from a CSV file, then the columns are standardized as per the requirements, then comes the cleaning part and then finally Visualizing some valuable insights from the cleaned data. Between this cleaning and visualiations parts, the cleaned is first inserted into MongoDB (NoSQL DB) and then retrived from it to store in a MySQL DB; from where the data is retrieved as per the required queries to visualize the data.
 Tools used :
@@ -30,4 +32,4 @@ In case if you've not installed streamlit previously, open the Project document 
 Or just open command prompt and execute the command pip install streamlit.
 Before running the Census2011_Queries.py file make sure to change the variable uri with your MongoDB localhost connection string. (At the beginning of Task 5)
 In order to run the Census2011_Queries.py, open the terminal and execute - streamlit run Census2011_Queries.py
-# Census_Data_Standardization_and_Analysis_Pipeline
+
